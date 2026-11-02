@@ -1,0 +1,3 @@
+import "./globals.css";import type { Metadata } from "next";
+export const metadata:Metadata={title:"AUTO LOG — личный цифровой гараж",description:"Учёт автомобилей, обслуживания, заправок и расходов",manifest:"/manifest.json",appleWebApp:{capable:true,statusBarStyle:"black-translucent",title:"AUTO LOG"}};
+export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="ru"><body>{children}</body></html>}
